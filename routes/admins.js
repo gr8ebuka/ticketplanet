@@ -1,7 +1,7 @@
 const express = require('express')
 const  bcrypt = require('bcrypt')
 const _ = require('lodash')
-const {validate, Admin} = require('../models/admin')
+const {validate, Admin} =  require('../models/admin')
 const router = express.Router()
 
 router.post('/', async(req, res)=>{
